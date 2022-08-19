@@ -1,0 +1,27 @@
+const users=[
+    {
+        _id:1,
+        firstname:"sravani",
+        lastname:"pyla",
+        email:"sravani@gmail.com",
+        password:"1234",
+        age:27
+    },
+    {
+        _id:2,
+        firstname:"swetha",
+        lastname:"janapati",
+        email:"swetha@gmail.com",
+        password:"12345",
+        age:27
+    },
+    {
+        _id:3,
+        firstname:"madhu",
+        lastname:"pyla",
+        email:"madhu@gmail.com",
+        password:"1234567",
+        age:27
+    }
+]
+module.exports=users
