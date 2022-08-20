@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Avatar, Grid,Paper, TextField,Checkbox, FormControlLabel,Button,Typography,Link} from '@mui/material';
+import { Avatar, Grid,Paper, TextField,Checkbox, FormControlLabel,Button} from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 
@@ -34,12 +34,12 @@ const Register = () => {
          }
          label="Remember me"
          />
-         <Button type="submit" color="primary" variant="contained" style={btnStyle} fullWidth>Sign in</Button>
-         <Typography > Do you have an account ?
+         <Button type="submit" color="primary" variant="contained" style={btnStyle} fullWidth>Sign Up</Button>
+         {/* <Typography > Do you have an account ?
                 <Link href="#" >
                         Sign Up 
                 </Link>
-        </Typography>
+        </Typography> */}
        </Paper>
     </Grid>
   )

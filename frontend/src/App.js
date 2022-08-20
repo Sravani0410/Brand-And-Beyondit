@@ -1,20 +1,20 @@
 
 import Register from "./components/Register";
-import {Routes, Route, BrowserRouter as Router } from "react-router-dom";
-import Login from "./components/Login"
+// import {Routes, Route } from "react-router-dom";
+// import Login from "./components/Login"
 function App() {
   return (
     <>
     
-      <Router>
+      {/* <Router>
         <Routes>
         <Route Link="/login" element={<Login/>} />
         <Route Link="/register" element={<Register/>} />
         </Routes>
         
-      </Router>
+      </Router> */}
       
-   
+      <Register/>
       
       
       
