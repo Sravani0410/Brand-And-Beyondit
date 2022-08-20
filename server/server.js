@@ -3,6 +3,7 @@ const users=require('./Data/user')
 const dotenv=require('dotenv')
 const connect=require("./config/db")
 const  userRoutes=require('./routes/userRoutes')
+const { notFound, errorHandler } = require('./middlewares/errorHandler')
 
 const app=express();
 dotenv.config()
@@ -24,6 +25,9 @@ app.get('/users/:id',(req,res)=>{
 });
 
 app.use('/users',userRoutes)
+
+app.use(notFound)
+app.use(errorHandler)
 
 const PORT=process.env.PORT||6000
 
