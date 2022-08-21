@@ -2,10 +2,12 @@
 import Register from "./components/Register";
 import {Routes, Route } from "react-router-dom";
 import Login from "./components/Login"
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
-    
+      <Navbar/>
       {/* <Router>
         <Routes>
         <Route Link="/login" element={<Login/>} />
