@@ -1,7 +1,7 @@
 
 import Register from "./components/Register";
-// import {Routes, Route } from "react-router-dom";
-// import Login from "./components/Login"
+import {Routes, Route } from "react-router-dom";
+import Login from "./components/Login"
 function App() {
   return (
     <>
@@ -13,11 +13,17 @@ function App() {
         </Routes>
         
       </Router> */}
+      {/* <Routes>
+      <Route exact path="/login"><Login/></Route>
+      <Route exact path="/register"><Register/></Route>
+      </Routes> */}
       
-      <Register/>
-      
-      
-      
+           
+      <Routes>
+          <Route exact path="/" element={<Login/>} />
+          <Route path="/register" element={<Register/>} />
+         
+        </Routes>
     </>
   );
 }

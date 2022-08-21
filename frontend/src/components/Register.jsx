@@ -24,10 +24,10 @@ const Register = () => {
                 <LockOutlinedIcon/>
             </Avatar>
             <h2>SIGN UP</h2>
-            <TextField label="Username" style={textstyle}placeholder="Enter Username" fullwidth required/>
-            <TextField label="Email" style={textstyle}placeholder="Enter Email" fullwidth required/>
-            <TextField label="Password" type="password" style={textstyle} placeholder="Enter Password" fullwidth required/>
-            <TextField label="Mobile Number" style={textstyle} placeholder="Enter Mobile" fullwidth required/>
+            <TextField label="Username" style={textstyle}placeholder="Enter Username" fullWidth required/>
+            <TextField label="Email" style={textstyle}placeholder="Enter Email" fullWidth required/>
+            <TextField label="Password" type="password" style={textstyle} placeholder="Enter Password" fullWidth required/>
+            <TextField label="Mobile Number" style={textstyle} placeholder="Enter Mobile" fullWidth required/>
          </Grid>
          <FormControlLabel style={checkStyle} control={
             <Checkbox />
