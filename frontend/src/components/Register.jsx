@@ -9,7 +9,7 @@ const Register = () => {
     padding:20,
     height:'80vh',
     width:280,
-    margin:"50px auto"
+    margin:"70px auto"
   }
   const avatarStyle={backgroundColor:'#00807a'}
   const textstyle={margin:"8px 0"}

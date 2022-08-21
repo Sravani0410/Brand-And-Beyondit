@@ -7,9 +7,9 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 const Login = () => {
   const paperStyle={
     padding:20,
-    height:'60vh',
+    height:'65vh',
     width:280,
-    margin:"50px auto"
+    margin:"100px auto"
   }
   const avatarStyle={backgroundColor:'#00807a'}
   const textstyle={margin:"8px 0"}
@@ -32,7 +32,9 @@ const Login = () => {
          }
          label="Remember me"
          />
-         <Button type="submit" color="primary" variant="contained" style={btnStyle} fullWidth>Sign in</Button>
+         <Button type="submit" color="primary" variant="contained" style={btnStyle} fullWidth>User Sign in</Button>
+      
+         <Button type="submit" color="primary" variant="contained" style={btnStyle} fullWidth>Admin Sign in</Button>
          <Typography > Do you have an account ?
                 <Link href="#" >
                         Sign Up 
